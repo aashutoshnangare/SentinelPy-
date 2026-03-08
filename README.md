@@ -6,7 +6,6 @@ System Health Monitor with Periodic Reporting
   dispatches real-time email intelligence reports
   surveillance.py
 -Project Structure
-
 │
 ├── main()                    # Entry point, CLI argument handling
 ├── CreateLog(FolderName)     # Generates a full system log file
