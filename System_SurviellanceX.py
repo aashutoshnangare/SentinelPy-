@@ -184,7 +184,7 @@ def GetEmailSummary():
 
     return summary
         
-def Marvellous_send_mail(sender, app_password, receiver, subject, body ,attachment_path):
+def send_mail(sender, app_password, receiver, subject, body ,attachment_path):
     print(" Mail Sent Successfully")
 
     msg = EmailMessage()
@@ -211,7 +211,7 @@ def SendEmailPerodically(Foldername,receiver):
     app_password = "fihifqvzuzhboezd"
     subject = "System Report - " + time.ctime()
     
-    Marvellous_send_mail(sender_email,app_password,receiver,subject,summary,log_file )
+    send_mail(sender_email,app_password,receiver,subject,summary,log_file )
 
 def main():
 
